@@ -42,7 +42,7 @@ You can modify the source code using [Visual Studio Code](https://code.visualstu
 code .
 ```
 
-The Function that is used by this app is located at `src/main/java/com/example/helloapp/HelloAppApplication.java`
+The Function that is used by this app is located at `src/main/java/com/example/helloapp/HelloFunApplication.java`
 
 You can build the project using the provided Maven wrapper:
 
