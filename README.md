@@ -52,13 +52,13 @@ You can build the project using the provided Maven wrapper:
 
 ## Standalone app with embedded Tomcat server
 
-To run the app using the embedded Tomcat server you can run this command:
+To run the app using the embedded server you can run this command:
 
 ```bash
 ./mvnw spring-boot:run
 ```
 
-You can access the function using `curl`:
+You can then access the function using `curl`:
 
 ```bash
 curl -w'\n' -H 'Content-Type: text/plain' localhost:8080 -d "Fun"
@@ -74,7 +74,8 @@ See the [Spring Boot Kubernetes](https://spring.io/guides/gs/spring-boot-kuberne
 
 ## Knative Service
 
-![Knative Logo](knative-logo.jpg)
+<img src="https://avatars3.githubusercontent.com/u/35583233?s=280&v=4"
+     alt="Knative" width="100" />
 
 You can containerize this template app and deploy it as a Knative Service.
 See the [Hello World - Spring Boot Java](https://knative.dev/docs/serving/samples/hello-world/helloworld-java-spring/) sample for details.
