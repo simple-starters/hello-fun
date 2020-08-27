@@ -50,7 +50,7 @@ You can build the project using the provided Maven wrapper:
 ./mvnw clean package
 ```
 
-## Standalone app with embedded Tomcat server
+## Standalone app with embedded Netty HTTP server
 
 To run the app using the embedded server you can run this command:
 
